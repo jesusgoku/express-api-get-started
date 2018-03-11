@@ -1,0 +1,21 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "Express API",
+  "main": "index.js",
+  "author": "Jesus Urrutia <jesus.urrutia@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.4",
+    "mongoose": "^5.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "scripts": {
+    "dev": "node \"$(npm bin)/nodemon\" index.js"
+  }
+}
